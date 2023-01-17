@@ -1,0 +1,393 @@
+/* imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@500&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+/* Common styles or utilities */
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background: #FFF4E7;
+}
+p {
+    color: 727272;
+}
+.btn-primary {
+    background: #FF900E;
+    color: #FFFFFF;
+    margin: 30px 0;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    width: fit-content;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.main-section {
+    background: #FFFFFF;
+}
+
+/* Header styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.header > .container {
+    margin-bottom: 20px;
+}
+.header-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.header-description {
+    margin: 0 180px;
+    text-align: center;
+}
+.header-image {
+    margin: 50px 0;
+}
+.header-image img{
+    width: 100%;
+}
+
+/* Features section styles */
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 50px 0;
+}
+.feature-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    grid-gap: 15px;
+    width: 100%;
+}
+.feature-image .image-4 img{
+    width: 100%;
+}
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.feature-title {
+    font-size: 30px;
+}
+.feature-title span {
+    display: block;
+    margin-top: 10px;
+    color: #FF900E;
+}
+.feature-description {
+    width: 100%;
+    display: block;
+}
+/* Experience section styles */
+.experience-area {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.experience-left, 
+.experience-right,
+.experience-image img {
+    width: 100%;
+}
+.experience-image {
+    position: relative;
+}
+.experience-title {
+    font-size: 30px;
+    border-left: 3px solid #FF900E;
+    padding-left: 10px;
+}
+.experience-description {
+    font-size: 12px;
+    line-height: 1.8em;
+}
+.experience-image img {
+    margin-top: 100px;
+}
+.text-box-4 {
+    box-shadow: #c3c3c3 0px 0px 15px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 20px 0; 
+}
+.text-box-4 h4{
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+.text-box-4 p{
+    font-size: 12px;
+    line-height: 1.8em;
+    margin-bottom: 0;
+}
+
+.read-more {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box-experience {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.box-experience > h3 {
+    font-size: 40px;
+}
+.box-experience > h3,
+.box-experience > p {
+    margin: 10px;
+}
+
+/* some facets or activities styles */
+
+.facts-title {
+    font-size: 30px;
+}
+.facts-description {
+    font-size: 14px;
+    margin-bottom: 50px;
+    width: 50%;
+    line-height: 1.8em;
+}
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+.four-activities {
+    text-align: center;
+    padding: 20px 15px;
+    width: 100%;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+}
+.four-activities > h3, 
+.four-activities > p {
+    margin: 8px 0;
+}
+.counts {
+    font-size: 35px;
+}
+
+/* sponsor section starts */
+#sponsor {
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+}
+.sponsor-top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor-title {
+    font-size: 40px;
+}
+.sponsor-details {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.sponsor-bottom .company{
+    display: flex;
+    justify-content: space-between;
+}
+.company-photo img {
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+}
+.company-photo img:hover {
+    filter: none;
+}
+
+/* footer area styles */
+
+.footer {
+    background-color: #FFFFFF;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text {
+    background-color: #FFF4E7;
+    padding: 20px 30px;
+    width: 80%;
+}
+.footer p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Responsive for Mobile & Other devices */
+
+/* for mobile device only */
+
+@media only screen and (max-width: 576px) {
+    .container {
+        margin-bottom: 0;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav > h2 {
+        text-align: center;
+    }
+    .header-title {
+        font-size: 40px;
+        margin-top: 0;
+    }
+    .header-description {
+        margin: 0;
+    }
+    .features {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-image {
+        align-content: center;
+    }
+    .feature-text {
+        text-align: center;
+        align-items: center;
+    }
+    .feature-text > h3, 
+    .feature-text > p, 
+    .feature-text > button {
+        margin: 10px;
+    }
+    .experience-area {
+        flex-direction: column;
+        gap: 0;
+    }
+    .experience-right {
+        margin-bottom: 50px;
+    }
+    .experience-image {
+        position: inherit;
+    }
+    .box-experience {
+        position: inherit;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .facts-title {
+        text-align: center;
+    }
+    .facts-description {
+        width: 100%;
+        text-align: center;
+    }
+    .activities {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .four-activities {
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .sponsor-details {
+        font-size: 12px;
+    }
+    .company-photo img {
+        width: 90%;
+    }
+    .footer {
+        min-height: 200px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+/* for tablets and medium devices only */
+@media only screen and (min-width: 577px) and (max-width:768px) {
+    .container {
+        margin-bottom: 0;
+    }
+    .header-description {
+        margin: 0;
+    }
+    .feature-title {
+        margin: 0;
+    }
+    .btn-primary {
+        margin: 0;
+    }
+    .feature-image {
+        align-content: center;
+    }
+    .feature-title {
+        font-size: 25px;
+    }
+    .feature-description {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .btn-primary {
+        font-size: 14px;
+    }
+    .experience-area {
+        flex-direction: column;
+        gap: 0;
+    }
+    .experience-right {
+        margin-bottom: 50px;
+    }
+    .experience-image {
+        position: inherit;
+    }
+    .box-experience {
+        position: inherit;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+
+.none {
+    display: none;
+}
